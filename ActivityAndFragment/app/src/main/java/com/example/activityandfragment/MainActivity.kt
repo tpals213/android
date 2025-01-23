@@ -1,9 +1,8 @@
-package com.example.androidsample
+package com.example.activityandfragment
 
+import android.content.Intent
 import android.os.Bundle
-import android.view.View
-import android.widget.EditText
-import android.widget.TextView
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -19,16 +18,17 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        // 버튼 세팅
+        settingButtons()
     }
-    // 버튼 만들기
-    fun convert(view: View){
-        val dollarText = findViewById<EditText>(R.id.dollarText)
-        val wonText = findViewById<TextView>(R.id.wonText)
 
-        if (dollarText.text.isNotEmpty()){
-            val dollarValue = dollarText.text.toString().toDouble()
-            val wonValue = dollarValue * 1500
-            wonText.text = wonValue.toString()
+    private fun settingButtons(){
+        val button = findViewById<Button>(R.id.button)
+        button.setOnClickListener{
+            // 버튼을 클릭 했을 때 처리
+            // ::class.java 붙이기
+            val intent = Intent(this, SubActivity::class.java)
+            startActivity(intent)
         }
     }
 }
