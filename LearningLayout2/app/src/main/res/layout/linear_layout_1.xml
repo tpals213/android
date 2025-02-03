@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+gravity 속성 : 위치값 조정
+android:orientation="vertical" 일 때는 gravity 속성 : start, center, end
+android:orientation="horizontal" 일 때는 gravity 속성 : top, center, bottom
+
+weight 속성 : 크기 조정
+위치가 어디에 속해 있든 가로 길이에 맞춤
+넓이의 비중 -> 총 넓이의 차지하는 비중
+android:weightSum="5" -> 상위 레이아웃의 총 넓이
+android:layout_weight="2" -> 하위 컴포넌트의 총 넓이 중 차지하는 비중
+-->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="5"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="0"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="button1"/>
+
+    <Button
+        android:layout_width="0"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="button2"/>
+
+    <Button
+        android:layout_width="0"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="button3"/>
+
+</LinearLayout>

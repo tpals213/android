@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Flower</string>
+    <string name="message">식물에 물을 줘봐요</string>
+    <string name="message0">아직 새싹이 나기 전이에요</string>
+    <string name="message1">새싹이 났어요</string>
+    <string name="message2">새싹이 하나 더 생겼어요</string>
+    <string name="message3">점점 자라고 있어요</string>
+    <string name="message4">꽃봉오리가 나왔어요</string>
+    <string name="message5">예쁘게 활짝 꽃이 피어났어요</string>
+    <string name="img_flower">아직 새싹이 나오기 전입니다</string>
+    <string name="btn_water">물을 줘요</string>
+    <string name="btn_reset">리셋</string>
+</resources>
