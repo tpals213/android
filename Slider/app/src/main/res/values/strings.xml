@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Slider</string>
+    <string name="btn_left">왼쪽</string>
+    <string name="btn_right">오른쪽</string>
 </resources>

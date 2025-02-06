@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="count_label">문제 %d</string>
+    <string name="answer_hint">정답을 입력하세요</string>
+    <string name="result_title">결과</string>
+    <string name="result_score">정답 수 :%d</string>
+    <string name="try_again">한번 더</string>
+</resources>

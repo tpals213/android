@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.slider"
+    namespace = "com.example.quiz"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.slider"
+        applicationId = "com.example.quiz"
         minSdk = 29
         targetSdk = 35
         versionCode = 1
@@ -33,7 +33,7 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-    buildFeatures {
+    buildFeatures{
         viewBinding = true
     }
 }
