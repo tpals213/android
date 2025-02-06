@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Speach</string>
+    <string name="hint">문구를 입력하세요</string>
+    <string name="sample_text">
+        간장공장 공장장은 강공장장이고, 된장공장 공장장은 장공장장이다
+    </string>
+    <string name="btn_fast">달인</string>
+    <string name="btn_normal">보통</string>
+    <string name="btn_slow">느리게</string>
+</resources>
