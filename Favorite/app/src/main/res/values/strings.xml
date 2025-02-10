@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Favorite</string>
+    <string name="image_description">좋아하는 사진</string>
+    <string name="explain_1">아이돌그룹 자이리톨의 멤버</string>
+    <string name="explain_2">신세대 먹방남</string>
+    <string name="explain_3">개성파 배우</string>
+    <string name="explain_4">개성파 여배우. 원래는 아나운서</string>
+    <string name="explain_5">싱어송라이터 1인 라이브의 신성</string>
+    <string name="explain_6">록밴드 열정의 멤버. 1박2일 출연</string>
+    <string name="explain_7">대한민국과 일본에서 활동 중인 대한민국의 가수, 싱어송라이터, 배우.</string>
+    <string name="explain_8">6시 내고향에 출연중인 리포터로 근육남임</string>
+    <string name="explain_9">2015년에 결성한 홍대 밴드 주 수입원은 버스킹</string>
+    <string name="btn_share">공유하기</string>
+
+</resources>
