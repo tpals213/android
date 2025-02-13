@@ -25,7 +25,7 @@
         android:contentDescription="@string/fab"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:srcCompat="@android:drawable/ic_input_add"/>
+        android:src="@android:drawable/ic_input_add"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

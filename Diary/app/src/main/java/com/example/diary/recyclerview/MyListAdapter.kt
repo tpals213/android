@@ -1,10 +1,12 @@
 package com.example.diary.recyclerview
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.diary.EditActivity
 import com.example.diary.R
 
 class MyListAdapter(private val data: MutableList<Map<String, String>>) :
@@ -20,8 +22,20 @@ class MyListAdapter(private val data: MutableList<Map<String, String>>) :
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        holder.itemDate.text = data[position]["date"]
-        holder.itemText.text = data[position]["text"]
+        val date = data[position]["date"]
+        val text = data[position]["text"]
+
+        holder.itemDate.text = date
+        holder.itemText.text = text
+
+        holder.itemView.setOnClickListener{
+            it.context.startActivity(
+                Intent(it.context, EditActivity::class.java).apply{
+                    putExtra("date", date)
+                    putExtra("text", text)
+                }
+            )
+        }
     }
 
 }

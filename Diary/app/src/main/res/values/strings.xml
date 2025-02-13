@@ -1,5 +1,24 @@
 <resources>
     <string name="app_name">Diary</string>
     <string name="fab">추가버튼</string>
-
+    <string name="label_date">날짜</string>
+    <string name="hint_date">날짜를 선택하여 주세요</string>
+    <string name="label_feeling">정신상태</string>
+    <string name="feel_great">매우 좋음</string>
+    <string name="feel_good">좋음</string>
+    <string name="feel_normal">보통</string>
+    <string name="feel_bad">나쁨</string>
+    <string name="feel_awful">매우 나쁨</string>
+    <string name="label_action">오늘 한일</string>
+    <string name="action_work">업무</string>
+    <string name="action_workout">운동</string>
+    <string name="action_shopping">쇼핑</string>
+    <string name="action_movie">영화</string>
+    <string name="action_sleep">수면</string>
+    <string name="label_diary">일기</string>
+    <string name="hint_diary">버튼을 누르시면 일기가 작성됩니다.</string>
+    <string name="btn_save">저장</string>
+    <string name="btn_delete">삭제</string>
+    <string name="diary_text">%s%s</string>
+    <string name="formated_date">%d/%02d/%02d</string>
 </resources>

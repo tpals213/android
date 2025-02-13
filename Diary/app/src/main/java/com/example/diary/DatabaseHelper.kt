@@ -21,7 +21,7 @@ class DatabaseHelper (context: Context) :
                 + " VALUES('2025/02/10', '음악이나 듣자')")
 
             it.execSQL("INSERT INTO items(diary_date, diary_text)"
-                    + " VALUES('2025/02/11', '영화나 듣자')")
+                    + " VALUES('2025/02/11', '영화나 보자')")
 
         }
     }
