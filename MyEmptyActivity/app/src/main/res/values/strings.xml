@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyEmptyActivity</string>
+    <string name="button1">버튼1</string>
+    <string name="button2">버튼2</string>
+    <string name="button3">버튼3</string>
+    <string name="button4">버튼4</string>
+    <string name="button5">버튼5</string>
+</resources>
